@@ -1,0 +1,213 @@
+body {
+    background-image:url("images/im4.jpg");
+}
+
+.navbar {
+    border-radius: 0;
+
+}
+
+.navbar {
+    font-family: "Stencil", cursive;
+}
+
+footer {
+    background: #EA57A3;
+    padding: 12px;
+    width: 100%;
+    border-top: 1px solid #423D3E;
+    text-align: center;
+    /*position:relative ;*/
+    bottom: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.footer-grid_last {
+    margin-right: 0;
+}
+
+
+
+.footer-grid {
+    float: left;
+    width: 17.6%;
+    margin-right: 3%;
+}
+
+
+p.footer_desc {
+    color: #747477;
+    font-size: 0.95em;
+    line-height: 1.8em;
+    margin: 0px 0 16px;
+}
+
+body p {
+    font-family: 'Lato-Regular';
+}
+
+p {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from body.sticky-header.left-side-collapsed
+
+html, body {
+    font-family: 'Lato-Regular';
+    font-size: 100%;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+
+html, body {
+    font-family: 'Lato-Regular';
+    font-size: 100%;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p.f_text {
+    color: #fff;
+    font-size: 0.85em;
+    margin-bottom: 0.5em;
+}
+
+
+p.email {
+    color: #EA57A3;
+    font-size: 0.85em;
+}
+
+body p {
+    font-family: 'Lato-Regular';
+}
+
+p {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from body.sticky-header.left-side-collapsed
+
+html, body {
+    font-family: 'Lato-Regular';
+    font-size: 100%;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+
+html, body {
+    font-family: 'Lato-Regular';
+    font-size: 100%;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

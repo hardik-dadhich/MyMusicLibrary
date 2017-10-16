@@ -1,0 +1,53 @@
+{% extends 'music/base.html' %}
+<title>{% block title %}contact{% endblock%}</title>
+{% block contact_me %}
+
+<div class="w3-row w3-padding-64" id="menu2">
+    <div class="w3-col l6 w3-padding-large">
+
+        <h1 class="w3-center">About
+        Developer </h1><br>
+        <h4><span style="color: #f44336">Hey this is ME</span></h4>
+        <p class="w3-text-grey">Hi myself &nbsp; <strong>HARDIK DADHICH</strong> . As My name Indicate I am Happy
+            and
+            humorous .By Birth i am innovative and Creative in Nature.<br>
+            I am doing B.Tech from Skit
+            Engineering College ,Jaipur. I love to design new things and make Human life more easier .<br>
+
+        </p><br>
+
+        <h4>Favorite quote</h4>
+        <p class="w3-text-grey">"Work till, Everyday becomes your Sunday."</p><br>
+
+        <h4>Eairly Life</h4>
+        <p class="w3-text-grey">My Schooling is from &nbsp;<strong> St paul's Sr Sec School.</strong> with Subjects
+            &nbsp;<strong>Science Maths</strong> and I got <strong>82.07</strong> with 3 subject Distinction</p><br>
+
+        <h4>Techinical skills </h4>
+        <p class="w3-text-grey">I am Android Developer And Entrepreneur. I did Marketing Intern in First year of college and made 35 sell
+        I did Innternship in Android Development in just 4th Sem and make CALL RECORDER for them
+        </p><br>
+
+        <h4>Languages I am Excellent</h4>
+        <p class="w3-text-grey"><span style="color: #4CAF50">Languages:-</span>HTML,BOOTSTRAP, CSS, JAVA-CORE, Python, C++, XML, SQL, MYSQL, JSON<br>
+         <span style="color: #4CAF50">Framework:-</span>Android Studio, STL ,Django, Jinger, MongoDB
+        </p>
+
+        <h4>Contact Me</h4>
+        <p class="w3-text-grey"><span style="color: blue">Email:</span>dadhichhardik26@gmail.com<br>
+            <span style="color: blue">Mobile-No:</span> 9602051867
+        </p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+        {% load staticfiles %}
+        <img src="{% static 'music/images/pic.jpg' %}" class="w3-round w3-image w3-opacity-min" alt="Menu"
+             width="300"
+             height="350">
+
+
+    </div>
+
+</div>
+
+{% endblock %}

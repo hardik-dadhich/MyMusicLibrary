@@ -1,0 +1,35 @@
+{% extends 'music/base.html' %}
+{% block body %}
+
+<h2>this is Album detailed page</h2>
+
+
+<div class="container-fluid songs-container">
+    <div class="row">
+        <!--left album info-->
+
+        <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <a href="{% url 'music:details' album.id %}">
+                        {% if album.album.artist %}
+                        <img src="{{ album_pk.artist  }}" class="img-responsive">
+                        {% else %}
+                        <h3>No image to display</h3>
+                        {% endif %}
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--right pannel of songs-->
+        <h3>hey now</h3>
+
+
+    </div>
+
+
+</div>
+
+
+{% endblock %}

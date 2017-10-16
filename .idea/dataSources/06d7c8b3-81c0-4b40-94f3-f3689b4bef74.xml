@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="weblogin@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="15eskcs721"/>
+    <schema id="3" parent="1" name="deepak"/>
+    <schema id="4" parent="1" name="eee"/>
+    <schema id="5" parent="1" name="har"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="login"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="student"/>
+    <schema id="10" parent="1" name="test"/>
+    <schema id="11" parent="1" name="weblogin">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="12" parent="11" name="users"/>
+    <column id="13" parent="12" name="users">
+      <Position>1</Position>
+      <DataType>VARCHAR(40)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="12" name="age">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="12" name="s_no">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="16" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>s_no</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

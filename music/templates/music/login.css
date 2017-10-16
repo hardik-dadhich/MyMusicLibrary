@@ -1,0 +1,366 @@
+.modal .input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+.modal button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.modal button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+element.style {
+}
+
+@media (max-width: 1280px)
+
+    .content-grid {
+        width: 24%;
+        margin-right: 1%;
+    }
+
+    @media (max-width: 1366px) {
+        .content-grid {
+            width: 23.5%;
+            margin-right: 2%;
+        }
+
+        @media (max-width: 1440px) {
+
+            .content-grid {
+                width: 24.1%;
+                margin-right: 1%;
+            }
+
+            @media (max-width: 1600px) {
+                .content-grid {
+                    width: 25%;
+                }
+
+                .content-grid {
+                    width: 21.2%;
+                }
+
+                .content-grid {
+                    width: 25%;
+                    float: left;
+                    text-align: center;
+                    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.35);
+                    margin-right: 0%;
+                    margin-bottom: 2%;
+                    position: relative;
+                    padding-left: 0;
+                }
+
+                @media (min-width: 992px)
+                bootstrap.css:
+
+                1961
+                    .col-md-3 {
+                        width: 25%;
+                    }
+
+                    @media (min-width: 992px)
+                    bootstrap.css:
+
+                    1931
+                        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+                            float: left;
+                        }
+
+                        bootstrap.css:
+
+                    1610
+                        .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+                            position: relative;
+                            min-height: 1px;
+                            padding-right: 15px;
+                            padding-left: 15px;
+                        }
+
+                        bootstrap.css:
+
+                    1072
+                        * {
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+
+                        user agent stylesheet
+                        div {
+                            display: block;
+                        }
+
+                        Inherited from body.sticky-header.left-side-collapsed
+                        style.css:
+
+                    12
+                        html, body {
+                            font-family: 'Lato-Regular';
+                            font-size: 100%;
+                            overflow-x: hidden;
+                            background: #f9f9f9;
+                        }
+
+                        body {
+                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-size: 14px;
+                            line-height: 1.42857143;
+                            color: #333;
+                            background-color: #fff;
+                        }
+
+                        Inherited from html
+                        style.css:
+
+                    12
+                        html, body {
+                            font-family: 'Lato-Regular';
+                            font-size: 100%;
+                            overflow-x: hidden;
+                            background: #f9f9f9;
+                        }
+
+                        bootstrap.css:
+
+                    1083
+                        html {
+                            font-size: 10px;
+                            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                        }
+
+                        bootstrap.css:
+
+                    8
+                        html {
+                            font-family: sans-serif;
+                            -webkit-text-size-adjust: 100%;
+                            -ms-text-size-adjust: 100%;
+                        }
+
+                        Pseudo ::before element
+                        *:before, *:after {
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+
+                        Pseudo ::after element
+                        *:before, *:after {
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+
+                        .album img {
+                            height: 250px;
+                            width: 250px;
+                        }
+
+                        .checkbox {
+                            font-weight: normal;
+                        }
+
+                        .wrapper {
+                            margin-top: 80px;
+                            margin-bottom: 80px;
+                        }
+
+                        .form-signin {
+                            max-width: 380px;
+                            padding: 15px 35px 45px;
+                            margin: 0 auto;
+                            background-color: #fff;
+                            border: 1px solid rgba(0, 0, 0, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*lets base login pannel from here*/
+
+body{
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+    padding:50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+
+/*lets base end here*/
