@@ -6,3 +6,7 @@ Rich Cloud music feature! upto 5GB
 About Developer Page View  
 
 ![alt tag](https://user-images.githubusercontent.com/25060629/31686958-7e1a5dea-b3a5-11e7-82aa-bc86c13a9ff6.png)
+
+
+Songs Album View ..
+![alt tag](https://user-images.githubusercontent.com/25060629/31687223-44c7fa1a-b3a6-11e7-88f3-07e2fa58ea77.png)
